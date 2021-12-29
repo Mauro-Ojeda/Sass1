@@ -1,0 +1,11 @@
+#nav1{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(13,24,170,1) 50%, rgba(0,0,0,1) 98%);
+    border-bottom: 2px solid #000;
+}
+ul a::first-letter{
+    color: $blanco;
+    font-size: 1rem;
+}
+#navColor:active{
+    color:rgba(3,7,66,1) ;
+}

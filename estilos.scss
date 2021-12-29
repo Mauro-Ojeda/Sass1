@@ -1,0 +1,84 @@
+// variables
+$blanco:white;
+$azul:#0d18aa;
+$uno:1rem;
+// esto serian partials ??
+@import "animacion-hover";
+@import "nav";
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: linear-gradient(90deg, rgba(3,7,66,1) 2%, rgba(0,0,0,1) 50%, rgba(3,7,66,1) 98%);
+}
+#demo{
+    padding-top: $uno;
+    width: 100vw;
+    cursor:pointer;
+}
+.text-center{
+    color: $blanco;
+    padding-top: $uno;
+}
+.imgP{
+    padding: $uno;
+    background-color: $blanco;
+    border-width: 0.2rem;
+    border-style: solid;
+    cursor: pointer;
+    color: rgb(57, 52, 154);
+    margin: $uno ;
+}
+.imgP img{
+    width: 10rem;
+    height: 10rem;
+    margin: $uno;
+}
+#imgRoja{
+    padding-top: 2.5rem;
+}
+#carta{
+    width: 250px;
+    justify-content: center;
+    margin: $uno;
+}
+.card-img-top{
+    width:10rem;
+    align-self:center ;
+    cursor: pointer;
+}
+#snp{
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+}
+h4{
+    font-size: $uno;
+    transition: all .5s ease ;
+    cursor: pointer;
+}
+/* FOOTER */
+// esto seria nesting ?
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: $uno;
+    list-style: none;
+    ul li{
+        display: inline-block;
+        padding-top: $uno;
+        align-items: center;
+        a{
+            font-size: $uno;
+            justify-content: space-between;
+            display: inline-block;
+        }
+    }
+}
